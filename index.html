@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gonzalo Quispe Fernández — Soporte TI, automatización e integraciones</title>
+  <meta name="description" content="Portafolio de Gonzalo Quispe Fernández: soporte técnico, automatización con Ansible, integraciones y desarrollo de software.">
+  <meta property="og:title" content="Gonzalo Quispe Fernández — Portafolio">
+  <meta property="og:description" content="Soporte TI, automatización e integraciones. Proyectos de hardware, software y datos.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Principal">
+    <a class="brand" href="index.html">gonzalo<span>.dev</span></a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="#sobre-mi"><span class="num">01.</span>Sobre mí</a>
+      <a href="#experiencia"><span class="num">02.</span>Experiencia</a>
+      <a href="#proyectos"><span class="num">03.</span>Proyectos</a>
+      <a href="#otros"><span class="num">04.</span>Otros</a>
+      <a href="#habilidades"><span class="num">05.</span>Habilidades</a>
+      <a href="#educacion"><span class="num">06.</span>Educación</a>
+      <a href="#contacto"><span class="num">07.</span>Contacto</a>
+      <a class="btn" href="assets/cv/gonzalo-quispe-cv.pdf" target="_blank" rel="noopener">CV</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero container">
+    <p class="eyebrow">Hola, mi nombre es</p>
+    <h1>Gonzalo Quispe Fernández.<br><span class="dim">Construyo, sostengo y conecto sistemas.</span></h1>
+    <h2>Soporte técnico · Automatización · Integraciones</h2>
+    <p class="lead">
+      Administro un laboratorio de 41 equipos, automaticé su gestión con Ansible y construí una plataforma
+      con pasarelas de pago, webhooks y suscripciones. Me muevo cómodo entre el hardware, el servidor y la
+      base de datos.
+    </p>
+    <div class="cta">
+      <a class="btn btn--solid" href="#proyectos">Ver proyectos</a>
+      <a class="btn" href="assets/cv/gonzalo-quispe-cv.pdf" target="_blank" rel="noopener">Descargar CV</a>
+      <a class="btn" href="https://github.com/Chaliuz" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MI ============ -->
+  <section class="block container" id="sobre-mi">
+    <div class="section-head"><span class="num">01.</span><h2>Sobre mí</h2></div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>
+          Soy desarrollador de software con formación técnica y experiencia real en <strong>soporte técnico</strong>.
+          Hoy estoy a cargo del laboratorio de cómputo de la Escuela de Ingeniería de Minas de la UNSA, donde
+          doy soporte a alumnos y docentes y administro 41 máquinas que automaticé con <strong>Ansible</strong>.
+        </p>
+        <p>
+          Antes trabajé implementando un sistema crítico de control de vacunación, desarrollé backend para un
+          videojuego y fundé una plataforma de trading donde integré <strong>pasarelas de pago</strong> (Openpay
+          y dLocal Go), <strong>webhooks</strong> y suscripciones. Me gusta entender el problema de punta a punta:
+          desde el sensor hasta la base de datos.
+        </p>
+        <p>
+          Fuera del trabajo construyo cosas: una torreta láser para minería subterránea, un sistema hidropónico
+          con ESP32 y MicroPython, y automatizaciones varias. Uso Linux (Manjaro + i3) como sistema principal
+          desde hace más de cinco años.
+        </p>
+        <span class="ph">Escribí acá una línea más personal: qué te gusta construir, qué querés aprender, a qué te querés dedicar.</span>
+      </div>
+      <div class="photo reveal">
+        <img src="assets/img/photo.svg" alt="Foto de Gonzalo Quispe Fernández" width="640" height="640">
+        <p class="photo-caption">Reemplazar por tu foto</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCIA ============ -->
+  <section class="block container" id="experiencia">
+    <div class="section-head"><span class="num">02.</span><h2>Experiencia</h2></div>
+    <div class="timeline">
+
+      <article class="job reveal">
+        <span class="when">2025 — Actualidad</span>
+        <h3>Encargado de Laboratorio de Cómputo <span class="at">· UNSA</span></h3>
+        <ul>
+          <li>Administro y doy soporte a 41 equipos (hardware, software y red) para alumnos y docentes.</li>
+          <li>Automaticé la configuración y el control de las máquinas con Ansible, reduciendo el trabajo manual.</li>
+          <li>Coordiné la instalación de software especializado (Rocscience) con el área de TI de la universidad.</li>
+        </ul>
+      </article>
+
+      <article class="job reveal">
+        <span class="when">2023 — 2024</span>
+        <h3>Fundador &amp; Desarrollador <span class="at">· Practical Trading Pro</span></h3>
+        <ul>
+          <li>Desarrollé el backend (Django REST Framework) y el frontend (Next.js) de la plataforma.</li>
+          <li>Implementé pagos y suscripciones con Openpay y dLocal Go: checkout, webhooks y vigencia.</li>
+          <li>Desplegué en AWS con Docker, PostgreSQL, Redis y Celery.</li>
+        </ul>
+      </article>
+
+      <article class="job reveal">
+        <span class="when">Jun — Ago 2024</span>
+        <h3>Desarrollador Backend (prácticas) <span class="at">· AgileTech Perú</span></h3>
+        <p>Apoyé el desarrollo de un servidor backend para un videojuego con NestJS. Modalidad remota.</p>
+      </article>
+
+      <article class="job reveal">
+        <span class="when">2022</span>
+        <h3>Soporte Técnico <span class="at">· Clínica San Pablo</span></h3>
+        <p>Implementación y soporte de un sistema de control de vacunación COVID-19 para trabajadores de la minera Quellaveco, incluyendo el despliegue de laptops.</p>
+      </article>
+
+      <article class="job reveal">
+        <span class="when">2021</span>
+        <h3>Desarrollador único <span class="at">· ADN Voladura</span></h3>
+        <p>Aplicativo móvil (React Native) para diseño de perforación y voladura, aplicado en la mina Las Bambas y base de una tesis de ingeniería (UNSA).</p>
+      </article>
+
+      <article class="job reveal">
+        <span class="when">2019</span>
+        <h3>Pasantías en Desarrollo <span class="at">· Grupo Connectix</span></h3>
+        <p>Implementación de un aplicativo móvil Android para el servicio de PetroPerú.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ PROYECTOS DESTACADOS ============ -->
+  <section class="block container" id="proyectos">
+    <div class="section-head"><span class="num">03.</span><h2>Proyectos destacados</h2></div>
+    <div class="featured">
+
+      <article class="project reveal">
+        <a class="media" href="projects/laser-pointer.html">
+          <span class="badge">Hardware · Minería</span>
+          <img src="assets/img/placeholder.svg" alt="Torreta láser para minería subterránea">
+        </a>
+        <div>
+          <p class="kicker">Proyecto destacado</p>
+          <h3>Torreta Láser</h3>
+          <p>Sistema con ESP32 que controla una torreta con láser para medir distancias y corregir la ubicación
+             de los taladros en minería subterránea. Exhibido en PERUMIN 37 (Arequipa, 2025) y en el World
+             Mining Congress (WMC 2026, Lima).</p>
+          <ul class="tags"><li>ESP32</li><li>C/C++</li><li>Servomotores</li><li>Láser</li></ul>
+          <div class="links"><a href="projects/laser-pointer.html">Ver caso de estudio →</a></div>
+        </div>
+      </article>
+
+      <article class="project reverse reveal">
+        <a class="media" href="projects/practical-trading.html">
+          <span class="badge">Web · Pagos</span>
+          <img src="assets/img/placeholder.svg" alt="Plataforma Practical Trading Pro">
+        </a>
+        <div>
+          <p class="kicker">Proyecto destacado</p>
+          <h3>Practical Trading Pro</h3>
+          <p>Plataforma de educación en trading con backend Django REST y frontend Next.js. Integra pasarelas de
+             pago (Openpay y dLocal Go), webhooks y suscripciones, además de la librería de gráficos de TradingView.</p>
+          <ul class="tags"><li>Django REST</li><li>Next.js</li><li>PostgreSQL</li><li>Docker</li><li>AWS</li></ul>
+          <div class="links"><a href="projects/practical-trading.html">Ver caso de estudio →</a></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <a class="media" href="projects/ansible-unsa.html">
+          <span class="badge">DevOps · Automatización</span>
+          <img src="assets/img/placeholder.svg" alt="Automatización con Ansible del laboratorio UNSA">
+        </a>
+        <div>
+          <p class="kicker">Proyecto destacado</p>
+          <h3>Ansible UNSA</h3>
+          <p>Automatización de las 41 máquinas del laboratorio de cómputo: instalación de software, configuración
+             y tareas repetitivas resueltas con playbooks de Ansible en lugar de trabajo manual.</p>
+          <ul class="tags"><li>Ansible</li><li>Linux</li><li>Bash</li><li>Redes</li></ul>
+          <div class="links"><a href="projects/ansible-unsa.html">Ver caso de estudio →</a></div>
+        </div>
+      </article>
+
+      <article class="project reverse reveal">
+        <a class="media" href="projects/hydroponics.html">
+          <span class="badge">IoT · Embebidos</span>
+          <img src="assets/img/placeholder.svg" alt="Sistema hidropónico con ESP32">
+        </a>
+        <div>
+          <p class="kicker">Proyecto destacado</p>
+          <h3>Sistema Hidropónico</h3>
+          <p>Proyecto HydroSmart: sistema de cultivo automatizado con ESP32 y MicroPython que riega, controla el
+             nivel de agua y lo rellena desde el grifo. Postulado al concurso de ProInnóvate «Emprendimientos
+             Innovadores frente al Cambio Climático 2G».</p>
+          <ul class="tags"><li>ESP32</li><li>MicroPython</li><li>Sensores</li><li>Automatización</li></ul>
+          <div class="links"><a href="projects/hydroponics.html">Ver caso de estudio →</a></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ OTROS PROYECTOS ============ -->
+  <section class="block container" id="otros">
+    <div class="section-head"><span class="num">04.</span><h2>Otros proyectos</h2></div>
+    <div class="grid">
+
+      <article class="card reveal">
+        <div class="top"><span class="icon">📚</span></div>
+        <h3>LecturApp</h3>
+        <p>App móvil educativa que fomenta la lectura en niños con mecánicas de juego. Idea propia; lideré un
+           equipo de 6 desarrolladores con SCRUM. <b>2.º puesto en un concurso nacional.</b></p>
+        <ul class="tags"><li>React Native</li><li>Redux</li><li>NestJS</li><li>SCRUM</li></ul>
+        <a class="more" href="projects/lecturapp.html">Ver más →</a>
+      </article>
+
+      <article class="card reveal">
+        <div class="top"><span class="icon">⚙️</span></div>
+        <h3>Extractor IoT (soldadura)</h3>
+        <p>Proyecto freelance: un ESP32 con sensor de aire detecta humos de soldadura y, al pasar el umbral,
+           activa un relé que enciende un ventilador. Incluye app móvil y servidor.</p>
+        <ul class="tags"><li>ESP32</li><li>IoT</li><li>App móvil</li><li>Servidor</li></ul>
+        <a class="more" href="projects/iot-soldadura.html">Ver más →</a>
+      </article>
+
+      <article class="card reveal">
+        <div class="top"><span class="icon">🩺</span></div>
+        <h3>Medical App</h3>
+        <p>Prototipo de aplicación médica (Go + Python). Idea propia en desarrollo, todavía no desplegada.</p>
+        <ul class="tags"><li>Go</li><li>Python</li><li>Prototipo</li></ul>
+        <a class="more" href="projects/medical-app.html">Ver más →</a>
+      </article>
+
+      <article class="card reveal">
+        <div class="top"><span class="icon">⛏️</span></div>
+        <h3>ADN Voladura</h3>
+        <p>App móvil para diseño y rediseño de parámetros de perforación y voladura, aplicada en la mina
+           Las Bambas. Base de una tesis de ingeniería (UNSA, 2021).</p>
+        <ul class="tags"><li>React Native</li><li>Redux</li><li>Minería</li></ul>
+        <a class="more" href="projects/adn-voladura.html">Ver más →</a>
+      </article>
+
+      <article class="card reveal">
+        <div class="top"><span class="icon">🧩</span></div>
+        <h3>Arquitectura Hexagonal</h3>
+        <p>Proyecto de práctica para dominar arquitectura hexagonal y separación de capas en un servicio real.</p>
+        <ul class="tags"><li>TypeScript</li><li>Arquitectura</li><li>Testing</li></ul>
+        <a class="more" href="projects/template-hexagonal.html">Ver más →</a>
+      </article>
+
+      <article class="card reveal">
+        <div class="top"><span class="icon">🤖</span></div>
+        <h3>Investigación: MMORPG</h3>
+        <p>Automatización y análisis de un MMORPG como proyecto de investigación personal (visión por computadora
+           y algoritmos de decisión). <span class="ph-inline">por definir</span></p>
+        <ul class="tags"><li>Python</li><li>Computer Vision</li><li>Algoritmos</li></ul>
+        <a class="more" href="projects/mmorpg-research.html">Ver más →</a>
+      </article>
+
+      <article class="card reveal">
+        <div class="top"><span class="icon">📊</span></div>
+        <h3>Otros experimentos</h3>
+        <p>Maestría en Ciencia de Datos, notebooks, scripts de automatización y utilidades varias.</p>
+        <ul class="tags"><li>Python</li><li>Data Science</li></ul>
+        <span class="ph">Agregá acá los proyectos que quieras sumar (tibiam wow, etc.).</span>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ HABILIDADES ============ -->
+  <section class="block container" id="habilidades">
+    <div class="section-head"><span class="num">05.</span><h2>Habilidades</h2></div>
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <h3>// Soporte TI</h3>
+        <ul>
+          <li>Soporte N1 / N2</li><li>Diagnóstico hardware</li><li>Redes</li>
+          <li>Instalación de software</li><li>Linux (avanzado)</li><li>Windows</li><li>Impresoras y proyectores</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h3>// Datos e integraciones</h3>
+        <ul>
+          <li>SQL (MySQL, PostgreSQL)</li><li>MongoDB</li><li>Modelado E-R</li>
+          <li>APIs REST</li><li>Webhooks</li><li>Postman / Insomnia</li><li>Pasarelas de pago</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h3>// DevOps y Cloud</h3>
+        <ul>
+          <li>Docker</li><li>Git</li><li>AWS (EC2 / S3)</li><li>Ansible</li><li>Terraform</li><li>Linux</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h3>// Lenguajes y herramientas</h3>
+        <ul>
+          <li>Python</li><li>JavaScript / TypeScript</li><li>Bash</li><li>SQL</li>
+          <li>Django / DRF</li><li>React / Next.js</li><li>Scrum / Jira</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCACION ============ -->
+  <section class="block container" id="educacion">
+    <div class="section-head"><span class="num">06.</span><h2>Educación y certificaciones</h2></div>
+    <div class="edu-grid">
+      <article class="edu reveal">
+        <span class="when">2025 — En curso</span>
+        <h3>Maestría en Ciencia de Datos</h3>
+        <p class="school">Universidad Nacional de San Agustín (UNSA)</p>
+        <p class="note">Actualmente cursando el 3.er semestre.</p>
+      </article>
+      <article class="edu reveal">
+        <span class="when">2023</span>
+        <h3>Bachiller en Ingeniería de Minas</h3>
+        <p class="school">Universidad Nacional de San Agustín (UNSA)</p>
+      </article>
+      <article class="edu reveal">
+        <span class="when">Egresado 2020</span>
+        <h3>Diseño de Software e Integración de Sistemas</h3>
+        <p class="school">TECSUP — carrera técnica</p>
+        <p class="note">Quinto superior · 5.º puesto · promedio 17.1</p>
+      </article>
+      <article class="edu reveal">
+        <span class="when">2024</span>
+        <h3>AWS Certified Cloud Practitioner</h3>
+        <p class="school">Amazon Web Services</p>
+        <p class="note"><a href="https://www.credly.com/badges/512f3591-5771-44ef-9618-55a029fb0f55/public_url" target="_blank" rel="noopener">Ver credencial →</a></p>
+      </article>
+      <article class="edu reveal">
+        <span class="when">2025</span>
+        <h3>Foundations of Prompt Engineering</h3>
+        <p class="school">Amazon Web Services</p>
+      </article>
+      <article class="edu reveal">
+        <span class="when">2025</span>
+        <h3>Suficiencia de Inglés — A2 (MCER)</h3>
+        <p class="school">TECSUP / Conversa Language School</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="block container" id="contacto">
+    <div class="contact reveal">
+      <p class="eyebrow">07. ¿Hablamos?</p>
+      <h2>Estoy abierto a nuevas oportunidades.</h2>
+      <p>Si querés conversar sobre soporte técnico, automatización o integraciones, escribime. Respondo rápido.</p>
+      <div class="cta" style="justify-content:center">
+        <a class="btn btn--solid" href="mailto:gonzalo.q.fz@gmail.com">gonzalo.q.fz@gmail.com</a>
+        <a class="btn" href="tel:+51930352718">+51 930 352 718</a>
+        <a class="btn" href="https://www.linkedin.com/in/gquispe/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Chaliuz" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <span class="ph">Cuando compres el dominio, cambiá estos links y el correo si querés uno propio (ej: hola@tudominio.com).</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span data-year>2026</span> Gonzalo Quispe Fernández · Hecho a mano con HTML, CSS y JS.</p>
+    <p><a href="https://github.com/Chaliuz" target="_blank" rel="noopener">github.com/Chaliuz</a> · <a href="https://www.linkedin.com/in/gquispe/" target="_blank" rel="noopener">linkedin.com/in/gquispe</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

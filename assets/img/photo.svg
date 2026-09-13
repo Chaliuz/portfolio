@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Foto pendiente">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#p)"/>
+  <circle cx="320" cy="250" r="105" fill="#334155"/>
+  <path d="M140 640c0-120 80-200 180-200s180 80 180 200z" fill="#334155"/>
+  <g fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
+    <text x="320" y="610" font-size="26" font-weight="700">TU FOTO</text>
+  </g>
+</svg>

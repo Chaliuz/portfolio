@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Extractor IoT para soldadura — Gonzalo Quispe Fernández</title>
+  <meta name="description" content="ESP32 + sensor de aire que detecta humos de soldadura y activa automáticamente un ventilador extractor.">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="container nav" aria-label="Principal">
+    <a class="brand" href="../index.html">gonzalo<span>.dev</span></a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="../index.html#sobre-mi"><span class="num">01.</span>Sobre mí</a>
+      <a href="../index.html#experiencia"><span class="num">02.</span>Experiencia</a>
+      <a href="../index.html#proyectos"><span class="num">03.</span>Proyectos</a>
+      <a href="../index.html#otros"><span class="num">04.</span>Otros</a>
+      <a href="../index.html#habilidades"><span class="num">05.</span>Habilidades</a>
+      <a href="../index.html#educacion"><span class="num">06.</span>Educación</a>
+      <a href="../index.html#contacto"><span class="num">07.</span>Contacto</a>
+      <a class="btn" href="../assets/cv/gonzalo-quispe-cv.pdf" target="_blank" rel="noopener">CV</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="detail-hero">
+    <a class="back" href="../index.html#proyectos">← Volver a proyectos</a>
+    <p class="kicker">IoT · Proyecto freelance</p>
+    <h1>Extractor IoT para soldadura</h1>
+    <p class="sub">ESP32 + sensor de aire que detecta humos de soldadura y activa automáticamente un ventilador extractor.</p>
+    <div class="detail-meta">
+      <span><b>Año:</b> 2024</span>
+      <span><b>Rol:</b> Desarrollo completo (freelance)</span>
+      <span><b>Estado:</b> Entregado</span>
+    </div>
+    <ul class="tags"><li>ESP32</li><li>Sensor de aire (SPS30)</li><li>Relé</li><li>App móvil</li><li>Servidor</li></ul>
+    <div class="detail-links"><span class="ph-inline">Repositorio: pegar URL</span></div>
+  </section>
+
+  <section class="detail-body">
+    <h2>Resumen</h2>
+    <p>Proyecto freelance para una empresa: un ESP32 monitorea la calidad del aire donde trabajan los soldadores.
+    Cuando los humos superan un umbral, activa un relé que enciende un ventilador grande. Desarrollé también
+    la app móvil y el servidor.</p>
+
+    <h2>El problema</h2>
+    <p>Los soldadores respiran humos metálicos que son dañinos. La ventilación se hacía de forma manual e
+    inconsistente.</p>
+
+    <h2>La solución</h2>
+    <p>Un ESP32 lee un sensor de partículas (SPS30). Al pasar el umbral configurado, cierra el relé que controla
+    el ventilador. La app móvil y el servidor permiten ver el estado y los registros.</p>
+
+    <h2>Arquitectura</h2>
+    <span class="ph">Diagrama: sensor → ESP32 → relé → ventilador, más app móvil y servidor.</span>
+    
+
+    <h2>Galería</h2>
+    <p>Reemplazá estas imágenes por capturas, fotos o GIFs reales del proyecto.</p>
+    <div class="gallery">
+      <figure style="margin:0"><img src="../assets/img/placeholder.svg" alt="Dispositivo instalado"><figcaption class="photo-caption">Dispositivo instalado</figcaption></figure>
+      <figure style="margin:0"><img src="../assets/img/placeholder.svg" alt="App móvil"><figcaption class="photo-caption">App móvil</figcaption></figure>
+      <figure style="margin:0"><img src="../assets/img/placeholder.svg" alt="Tablero / servidor"><figcaption class="photo-caption">Tablero / servidor</figcaption></figure></div>
+
+    <h2>Resultados e impacto</h2>
+<ul class="prose-list"><li>Ventilación automática basada en la calidad del aire real.</li><li><span class="ph-inline">Agregar métricas: umbral configurado, tiempo de respuesta, resultados.</span></li></ul>
+
+    <h2>Aprendizajes</h2>
+<ul class="prose-list"><li>Integrar hardware, app móvil y backend en un solo producto.</li><li>Trabajar con sensores de calidad de aire y actuadores industriales.</li><li>Entregar una solución completa a un cliente.</li></ul>
+
+    <p style="margin-top:44px"><a class="btn" href="../index.html#proyectos">← Ver más proyectos</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span data-year>2026</span> Gonzalo Quispe Fernández · Hecho a mano con HTML, CSS y JS.</p>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

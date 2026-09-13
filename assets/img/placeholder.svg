@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Imagen pendiente">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="12 10" opacity="0.55">
+    <rect x="40" y="40" width="1120" height="595" rx="16"/>
+  </g>
+  <g fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
+    <text x="600" y="320" font-size="42" font-weight="700">IMAGEN PENDIENTE</text>
+    <text x="600" y="368" font-size="22" fill="#94a3b8">Reemplazar por captura / foto / GIF del proyecto</text>
+  </g>
+</svg>

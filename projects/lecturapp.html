@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LecturApp — Gonzalo Quispe Fernández</title>
+  <meta name="description" content="App móvil educativa que fomenta la lectura en niños con mecánicas de juego. Idea propia; lideré un equipo de 6 desarrolladores con SCRUM. 2.º puesto en un concurso nacional de emprendimiento.">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="container nav" aria-label="Principal">
+    <a class="brand" href="../index.html">gonzalo<span>.dev</span></a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="../index.html#sobre-mi"><span class="num">01.</span>Sobre mí</a>
+      <a href="../index.html#experiencia"><span class="num">02.</span>Experiencia</a>
+      <a href="../index.html#proyectos"><span class="num">03.</span>Proyectos</a>
+      <a href="../index.html#otros"><span class="num">04.</span>Otros</a>
+      <a href="../index.html#habilidades"><span class="num">05.</span>Habilidades</a>
+      <a href="../index.html#educacion"><span class="num">06.</span>Educación</a>
+      <a href="../index.html#contacto"><span class="num">07.</span>Contacto</a>
+      <a class="btn" href="../assets/cv/gonzalo-quispe-cv.pdf" target="_blank" rel="noopener">CV</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="detail-hero">
+    <a class="back" href="../index.html#proyectos">← Volver a proyectos</a>
+    <p class="kicker">Mobile · Educación · Emprendimiento</p>
+    <h1>LecturApp</h1>
+    <p class="sub">App móvil educativa que fomenta la lectura en niños con mecánicas de juego. Idea propia;
+       lideré un equipo de 6 desarrolladores con SCRUM.</p>
+    <div class="detail-meta">
+      <span><b>Año:</b> 2020 – 2021</span>
+      <span><b>Rol:</b> Idea original, líder del equipo y desarrollador</span>
+      <span><b>Estado:</b> MVP terminado · 2.º puesto en un concurso nacional</span>
+    </div>
+    <ul class="tags"><li>React Native</li><li>Redux</li><li>NestJS</li><li>TypeORM</li><li>Docker</li><li>SCRUM</li><li>Jest</li></ul>
+    <div class="detail-links">
+      <span class="ph-inline">Repositorio: pegar URL</span>
+      <span class="ph-inline">Concurso: nombre por confirmar</span>
+    </div>
+  </section>
+
+  <section class="detail-body">
+    <h2>Resumen</h2>
+    <p>LecturApp es una aplicación móvil que convierte la lectura en un juego. El usuario lee cuentos, responde
+       preguntas, gana monedas y desbloquea ropa y accesorios para su avatar (un zorro). Nació como una idea
+       propia que llevé a un equipo de 6 personas, y con la que obtuvimos el <b>2.º puesto en un concurso
+       nacional de emprendimiento</b>.</p>
+
+    <h2>El problema</h2>
+    <p>A los niños les cuesta encontrar motivación para leer. Las apps de lectura tradicionales son pasivas:
+       no premian el esfuerzo ni convierten el hábito en algo divertido.</p>
+
+    <h2>La solución</h2>
+    <p>Aplicamos las mecánicas de un juego a la lectura: cuentos diarios, preguntas de comprensión, recompensas
+       (monedas, ropa para el avatar), estadísticas de progreso y videos desbloqueables. Todo guiado por un
+       personaje para darle identidad y cercanía.</p>
+
+    <h2>Mi rol y liderazgo</h2>
+    <ul class="prose-list">
+      <li><b>Idea original:</b> concebí el producto y el modelo de gamificación.</li>
+      <li><b>Liderazgo:</b> formé y coordiné un equipo de 6 desarrolladores con metodología <b>SCRUM</b> (product backlog, historias de usuario, sprints).</li>
+      <li><b>Producto y diseño:</b> mockups en Figma y diseño de las vestimentas y poses del avatar en Inkscape.</li>
+      <li><b>Arquitectura:</b> refactoricé el proyecto para aplicar <b>principios SOLID</b> y <b>arquitectura hexagonal</b>.</li>
+      <li><b>Desarrollo:</b> frontend en React Native, conexión con el backend y pruebas.</li>
+    </ul>
+
+    <h2>Arquitectura y stack</h2>
+    <ul class="prose-list">
+      <li><b>App:</b> React Native + Redux + redux-persist + Dripsy.</li>
+      <li><b>Backend:</b> NestJS + TypeORM, contenedorizado con Docker.</li>
+      <li><b>Infra y CI:</b> Docker, Travis CI, Kubernetes.</li>
+      <li><b>Calidad:</b> tests unitarios y E2E (Jest).</li>
+      <li><b>Diseño:</b> Figma e Inkscape.</li>
+    </ul>
+    <span class="ph">Agregá un diagrama de la arquitectura (app ↔ API ↔ base de datos).</span>
+
+    <h2>Galería</h2>
+    <div class="gallery screens">
+      <figure><img src="../assets/img/lecturapp/screens/09-login.png" alt="Inicio de sesión"><figcaption class="photo-caption">Inicio de sesión</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/01-index.png" alt="Pantalla principal"><figcaption class="photo-caption">Pantalla principal</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/02-cuentos-diarios.png" alt="Cuentos diarios"><figcaption class="photo-caption">Cuentos diarios</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/03-cuento-de-hoy.png" alt="Cuento del día"><figcaption class="photo-caption">Lectura del cuento del día</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/04-cuestionario.png" alt="Cuestionario"><figcaption class="photo-caption">Cuestionario de comprensión</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/05-resultados.png" alt="Resultados"><figcaption class="photo-caption">Resultado de la lectura</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/06-premio.png" alt="Premio"><figcaption class="photo-caption">Recompensa por leer</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/07-vestidor.png" alt="Vestidor"><figcaption class="photo-caption">Vestidor: personalización del avatar</figcaption></figure>
+      <figure><img src="../assets/img/lecturapp/screens/08-estadisticas.png" alt="Estadísticas"><figcaption class="photo-caption">Estadísticas de progreso</figcaption></figure>
+    </div>
+    <span class="ph">El mockup completo está en Figma. Si querés, sumamos también las pantallas de videos, inventario y mercado.</span>
+
+    <h2>Resultados e impacto</h2>
+    <ul class="prose-list">
+      <li><b>2.º puesto en un concurso nacional de emprendimiento</b> (nombre por confirmar).</li>
+      <li>MVP funcional con gamificación completa: cuentos, preguntas, monedas, vestidor, estadísticas y videos.</li>
+      <li>Equipo de 6 desarrolladores coordinado con SCRUM y 181 tarjetas de trabajo gestionadas.</li>
+      <li>Cobertura de tests unitarios y E2E sobre los módulos principales.</li>
+    </ul>
+
+    <h2>Aprendizajes</h2>
+    <ul class="prose-list">
+      <li>Liderar un equipo de desarrollo desde la idea hasta un producto funcional.</li>
+      <li>Aplicar SCRUM en la práctica, no solo en teoría.</li>
+      <li>Diseñar con arquitectura hexagonal y principios SOLID en un proyecto real.</li>
+      <li>Convertir una idea de producto en algo que se construye, se prueba y se presenta.</li>
+    </ul>
+
+    <p style="margin-top:44px"><a class="btn" href="../index.html#proyectos">← Ver más proyectos</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span data-year>2026</span> Gonzalo Quispe Fernández · Hecho a mano con HTML, CSS y JS.</p>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

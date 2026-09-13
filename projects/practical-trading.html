@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practical Trading Pro — Gonzalo Quispe Fernández</title>
+  <meta name="description" content="Plataforma de educación en trading con backend Django REST y frontend Next.js, con suscripciones y pagos integrados.">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="container nav" aria-label="Principal">
+    <a class="brand" href="../index.html">gonzalo<span>.dev</span></a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="../index.html#sobre-mi"><span class="num">01.</span>Sobre mí</a>
+      <a href="../index.html#experiencia"><span class="num">02.</span>Experiencia</a>
+      <a href="../index.html#proyectos"><span class="num">03.</span>Proyectos</a>
+      <a href="../index.html#otros"><span class="num">04.</span>Otros</a>
+      <a href="../index.html#habilidades"><span class="num">05.</span>Habilidades</a>
+      <a href="../index.html#educacion"><span class="num">06.</span>Educación</a>
+      <a href="../index.html#contacto"><span class="num">07.</span>Contacto</a>
+      <a class="btn" href="../assets/cv/gonzalo-quispe-cv.pdf" target="_blank" rel="noopener">CV</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="detail-hero">
+    <a class="back" href="../index.html#proyectos">← Volver a proyectos</a>
+    <p class="kicker">Web · Pagos e integraciones</p>
+    <h1>Practical Trading Pro</h1>
+    <p class="sub">Plataforma de educación en trading con backend Django REST y frontend Next.js, con suscripciones y pagos integrados.</p>
+    <div class="detail-meta">
+      <span><b>Año:</b> 2023 — 2024</span>
+      <span><b>Rol:</b> Fundador y desarrollador (con un socio)</span>
+      <span><b>Estado:</b> MVP terminado</span>
+    </div>
+    <ul class="tags"><li>Django REST</li><li>Next.js</li><li>PostgreSQL</li><li>Redis</li><li>Celery</li><li>Docker</li><li>AWS</li><li>dLocal Go</li><li>Openpay</li><li>TradingView</li></ul>
+    <div class="detail-links"><a href="https://www.practicaltradingpro.com/" target="_blank" rel="noopener">Sitio →</a><span class="ph-inline">Repositorio: pegar URL</span></div>
+  </section>
+
+  <section class="detail-body">
+    <h2>Resumen</h2>
+    <p>Plataforma de educación en trading que desarrollé desde cero junto a un socio. Yo me encargué del
+    backend y de gran parte del frontend, incluyendo el sistema de cobros.</p>
+
+    <h2>El problema</h2>
+    <p>La plataforma debía permitir practicar y aprender trading, y cobrar suscripciones de
+    forma segura y automática, con control de accesos según el plan.</p>
+
+    <h2>La solución</h2>
+    <p>Construí la API con Django REST Framework y el frontend con Next.js. Implementé el ciclo completo de
+    pagos: generación de checkout, validación por <b>webhook</b> y control de vigencia de la suscripción.
+    Empecé con <b>Openpay</b> y migré a <b>dLocal Go</b>. Integré la librería de gráficos de <b>TradingView</b>.</p>
+
+    <h2>Arquitectura</h2>
+    <ul class="prose-list">
+      <li>Backend: Django REST Framework con autenticación por token/JWT.</li>
+      <li>Base de datos PostgreSQL, caché con Redis y tareas asíncronas con Celery.</li>
+      <li>Frontend: Next.js consumiendo la API.</li>
+      <li>Despliegue con Docker en AWS.</li>
+      <li>Pagos: Openpay → dLocal Go, con webhooks que validan la transacción y acumulan tiempo de suscripción.</li>
+    </ul>
+    <span class="ph">Agregá un diagrama de la arquitectura y del flujo de pago.</span>
+    
+
+    <h2>Galería</h2>
+    <p>Reemplazá estas imágenes por capturas, fotos o GIFs reales del proyecto.</p>
+    <div class="gallery">
+      <figure style="margin:0"><img src="../assets/img/placeholder.svg" alt="Pantalla principal de la plataforma"><figcaption class="photo-caption">Pantalla principal de la plataforma</figcaption></figure>
+      <figure style="margin:0"><img src="../assets/img/placeholder.svg" alt="Gráficos de TradingView integrados"><figcaption class="photo-caption">Gráficos de TradingView integrados</figcaption></figure>
+      <figure style="margin:0"><img src="../assets/img/placeholder.svg" alt="Flujo de pago / planes"><figcaption class="photo-caption">Flujo de pago / planes</figcaption></figure></div>
+
+    <h2>Resultados e impacto</h2>
+<ul class="prose-list"><li>MVP funcional con planes, prueba gratuita y suscripciones.</li><li>Integración de pagos migrada de Openpay a dLocal Go.</li><li>El proyecto se descontinuó antes de captar clientes: quedó como MVP, sin usuarios en producción.</li><li><span class="ph-inline">Agregar métricas: usuarios, conversión, uptime.</span></li></ul>
+
+    <h2>Aprendizajes</h2>
+<ul class="prose-list"><li>Diseñar e implementar integraciones con pasarelas de pago y webhooks.</li><li>Manejar suscripciones, validación de pagos y estados de cuenta.</li><li>Desplegar un stack completo (Django + Next + Postgres + Redis + Celery) en AWS.</li></ul>
+
+    <p style="margin-top:44px"><a class="btn" href="../index.html#proyectos">← Ver más proyectos</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span data-year>2026</span> Gonzalo Quispe Fernández · Hecho a mano con HTML, CSS y JS.</p>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
