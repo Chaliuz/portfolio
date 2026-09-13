@@ -122,7 +122,7 @@ section.block { padding: 72px 0; }
   padding: 10px; background: var(--surface); box-shadow: var(--shadow);
   max-width: 300px; margin-inline: auto;
 }
-.about-grid .photo img { border-radius: 10px; }
+.about-grid .photo img { border-radius: 10px; width: 100%; height: auto; }
 .photo-caption { text-align: center; color: var(--muted); font-size: 0.78rem; margin-top: 8px; font-family: var(--mono); }
 
 /* ---------- Experience timeline ---------- */
