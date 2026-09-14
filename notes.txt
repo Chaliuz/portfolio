@@ -1,0 +1,23 @@
+complete command to update the changes to my page:
+
+git add -A && git commit -m "mensaje" && git push origin main
+
+-----------------------------------------------------------------------
+
+
+ El resumen mínimo (si algún día quiero hacer el despliegue de cero)
+
+ ```bash
+   cd carpeta-del-proyecto          # 1. entrar
+   git init -b main                 # 2. convertirlo en repo
+   git add -A                       # 3. preparar todos los archivos
+   git commit -m "primer commit"    # 4. guardar la foto
+   gh repo create mi-repo --public --source=. --remote=origin --push   # 5. crear y subir
+ ```
+
+ Con eso ya está en GitHub. Después, solo cuando necesites página web:
+
+ ```bash
+   gh api -X POST repos/<usuario>/<repo>/pages -f "source[branch]=main" -f "source[path]=/"
+ ```
+
